@@ -23,6 +23,11 @@
 
 <style>
   .wrapper {
+    display: grid;
+    grid-template-rows: subgrid;
+    grid-row: 1/-1;
+
+    align-content: start;
     padding: 1rem;
     background-color: #ddd;
     border-radius: 8px;
@@ -35,7 +40,6 @@
     background-color: #aaa;
   }
   .title {
-    margin-top: 12px;
     font-size: 20px;
   }
 </style>

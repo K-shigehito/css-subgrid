@@ -3,8 +3,9 @@
 
   const cardData = [
     {
-      title: 'Card 1',
-      description: 'This is a card description'
+      title: 'Card 1 Card 1 Card 1 Card 1 Card 1 Card 1 Card 1',
+      description:
+        'This is a card description. This is a card description.This is a card description.'
     },
     {
       title: 'Card 2',
@@ -27,6 +28,8 @@
   .wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 1rem;
+    grid-template-rows: repeat(3, auto);
+    column-gap: 16px;
+    row-gap: 8px;
   }
 </style>
