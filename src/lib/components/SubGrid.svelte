@@ -23,12 +23,12 @@
 
 <style>
   .wrapper {
-    display: grid;
-    grid-template-rows: subgrid;
-    grid-row: 1/-1;
-
+    grid-row: 1/4;
     align-content: start;
-    padding: 1rem;
+    display: grid;
+    row-gap: 8px;
+    /* grid-template-rows: subgrid; */
+    padding: 16px;
     background-color: #ddd;
     border-radius: 8px;
   }
@@ -41,5 +41,6 @@
   }
   .title {
     font-size: 20px;
+    font-weight: bold;
   }
 </style>
