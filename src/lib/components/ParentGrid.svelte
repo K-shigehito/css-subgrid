@@ -3,7 +3,7 @@
 
   const cardData = [
     {
-      title: 'Card 1 Card 1 Card 1 Card 1 Card 1 Card 1 Card 1',
+      title: 'Card 1 Card 1 Card 1 Card 1 Card 1',
       description:
         'This is a card description. This is a card description.This is a card description.'
     },
