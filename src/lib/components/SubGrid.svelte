@@ -29,7 +29,7 @@
     row-gap: 8px;
     /* grid-template-rows: subgrid; */
     padding: 16px;
-    background-color: #ddd;
+    background-color: #e7e5e4;
     border-radius: 8px;
   }
   .image {
@@ -37,10 +37,11 @@
     height: 200px;
     object-fit: cover;
     border-radius: 8px;
-    background-color: #aaa;
+    background-color: #78716c;
   }
   .title {
     font-size: 20px;
     font-weight: bold;
+    line-height: 1.4;
   }
 </style>
